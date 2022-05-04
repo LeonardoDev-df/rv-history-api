@@ -49,6 +49,7 @@ spring:
     username: lionidiota@gmail.com
     password: ynxfucisxpkrzors
     protocol: smtp
+    from: rvhistoryapi@gmail.com
     properties.mail.smtp:
       auth: true
       starttls.enable: true
