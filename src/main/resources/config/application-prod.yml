@@ -46,7 +46,7 @@ spring:
     contexts: prod
   mail:
     host: smtp.gmail.com
-    username: lionidiota@gmail.com
+    username: rvhistoryapi@gmail.com
     password: ynxfucisxpkrzors
     protocol: smtp
     from: rvhistoryapi@gmail.com
