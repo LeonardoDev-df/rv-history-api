@@ -81,7 +81,7 @@ jhipster:
     allowed-methods: '*'
     allowed-headers: '*'
     exposed-headers: ''
-    allow-credentials: false
+    allow-credentials: true
     max-age: 1800
   security:
     authentication:
