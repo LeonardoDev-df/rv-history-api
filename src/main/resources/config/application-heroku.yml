@@ -12,7 +12,7 @@
 
 eureka:
   instance:
-    hostname: https://quiz-history-back-end.herokuapp.com/
+    hostname: https://rv-history-api.herokuapp.com/
     non-secure-port: 80
     prefer-ip-address: false
 
