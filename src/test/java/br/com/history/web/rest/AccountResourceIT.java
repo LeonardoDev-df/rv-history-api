@@ -14,6 +14,7 @@ import br.com.history.security.AuthoritiesConstants;
 import br.com.history.service.UserService;
 import br.com.history.service.dto.AdminUserDTO;
 import br.com.history.service.dto.PasswordChangeDTO;
+import br.com.history.service.dto.UserDTO;
 import br.com.history.web.rest.vm.KeyAndPasswordVM;
 import br.com.history.web.rest.vm.ManagedUserVM;
 import java.time.Instant;

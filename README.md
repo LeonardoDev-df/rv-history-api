@@ -4,15 +4,13 @@
 
 - Install and use the postgresql.
 - Create a login / group functions in postgresql with username rv_history_api and password rv_history_api.
-- Create a database with the rv_history_api owner created earlier.
+- Create a database with the db_rv_history_api owner created earlier.
 
 ```
 ./mvnw
 ```
 
-The project run on port 8080.
-To consumer the api, import on your client api using the url [http://localhost: 8080/v3/api-docs](http://localhost:8080/v3/api-docs).
-All API run inside url [http://localhost: 8080/api/](http://localhost:8080/api/).
+To consumer the api access [http://localhost: 8080/api](http://localhost:8080/api) in your client api.
 
 ## Using Docker to simplify development (optional)
 
@@ -41,10 +39,4 @@ Then run:
 
 ```
 docker-compose -f src/main/docker/app.yml up -d
-```
-
-## How to run app JDL on terminal:
-
-```
-jhipster jdl .jdl/app.jdl --incremental-changelog --skip-fake-data --with-generated-flag --skip-install
 ```

@@ -7,6 +7,7 @@ import br.com.history.service.MailService;
 import br.com.history.service.UserService;
 import br.com.history.service.dto.AdminUserDTO;
 import br.com.history.service.dto.PasswordChangeDTO;
+import br.com.history.service.dto.UserDTO;
 import br.com.history.web.rest.errors.*;
 import br.com.history.web.rest.vm.KeyAndPasswordVM;
 import br.com.history.web.rest.vm.ManagedUserVM;

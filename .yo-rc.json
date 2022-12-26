@@ -41,11 +41,6 @@
     "clientPackageManager": "npm",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "withAdminUi": true,
-    "herokuAppName": "rv-history-api",
-    "herokuDeployType": "git",
-    "herokuJavaVersion": "11",
-    "entities": ["HistoricalSite", "Address", "StatusHistoricalSite", "SiteImage"],
-    "lastLiquibaseTimestamp": 1628965810000
+    "withAdminUi": true
   }
 }
