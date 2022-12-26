@@ -1,6 +1,5 @@
 package br.com.history;
 
-import br.com.history.RvHistoryApiApp;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

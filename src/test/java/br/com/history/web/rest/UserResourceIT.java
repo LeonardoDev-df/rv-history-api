@@ -2,7 +2,6 @@ package br.com.history.web.rest;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.hasItem;
-import static org.hamcrest.Matchers.hasItems;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
@@ -12,7 +11,6 @@ import br.com.history.domain.User;
 import br.com.history.repository.UserRepository;
 import br.com.history.security.AuthoritiesConstants;
 import br.com.history.service.dto.AdminUserDTO;
-import br.com.history.service.dto.UserDTO;
 import br.com.history.service.mapper.UserMapper;
 import br.com.history.web.rest.vm.ManagedUserVM;
 import java.time.Instant;

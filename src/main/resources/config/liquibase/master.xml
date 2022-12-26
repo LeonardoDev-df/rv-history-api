@@ -15,7 +15,24 @@
     <property name="datetimeType" value="datetime" dbms="oracle, mssql, postgresql, h2"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210701011547_added_entity_HistoricalSite.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210701011548_added_entity_Address.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210814183010_added_entity_SiteImage.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20210701011547_added_entity_constraints_HistoricalSite.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210814183010_added_entity_constraints_SiteImage.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20210817194040_alter_entity_HistoricalSite.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210817195300_added_entity_constraints_HistoricalSite.xml" relativeToChangelogFile="false"/>
+
+    <include file="config/liquibase/changelog/20210824184800_alter_entity_HistoricalSite.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210824190100_alter_table_site_image.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210824190400_alter_table_site_image.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210825004800_insert_data_Address.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210825005000_insert_data_HistoricalSite.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210825005100_insert_data_SiteImage.xml" relativeToChangelogFile="false"/>
+
+    <include file="config/liquibase/changelog/20210826172300_alter_table_site_image.xml" relativeToChangelogFile="false"/>
+
 </databaseChangeLog>
