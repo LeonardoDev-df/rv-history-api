@@ -47,8 +47,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: rvhistoryapi@gmail.com
-    password: rvhistory@2021
+    username: 620683786200-8keji8vgdi2np5gc83oevgaseckdi5ra.apps.googleusercontent.com
+    password: lionxsk18
     protocol: smtp
     properties.mail.smtp:
       auth: true
