@@ -1,7 +1,8 @@
 package br.com.history.config;
 
-import br.com.history.security.*;
-import br.com.history.security.jwt.*;
+import br.com.history.security.AuthoritiesConstants;
+import br.com.history.security.jwt.JWTConfigurer;
+import br.com.history.security.jwt.TokenProvider;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
 import org.springframework.http.HttpMethod;
@@ -83,6 +84,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             .antMatchers("/api/activate").permitAll()
             .antMatchers("/api/account/reset-password/init").permitAll()
             .antMatchers("/api/account/reset-password/finish").permitAll()
+            .antMatchers(HttpMethod.GET, "/api/site-images/**").permitAll()
+            .antMatchers(HttpMethod.GET, "/api/historical-sites/**").permitAll()
             .antMatchers("/api/admin/**").hasAuthority(AuthoritiesConstants.ADMIN)
             .antMatchers("/api/**").authenticated()
             .antMatchers("/management/health").permitAll()
