@@ -47,10 +47,9 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: lionidiota@gmail.com
-    password: ynxfucisxpkrzors
+    username: rvhistoryapi@gmail.com
+    password: rvhistory@2021
     protocol: smtp
-    from: rvhistoryapi@gmail.com
     properties.mail.smtp:
       auth: true
       starttls.enable: true
